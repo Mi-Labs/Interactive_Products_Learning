@@ -1,0 +1,36 @@
+/* CSS Document 
+
+Sources for the centering alignment: https://www.youtube.com/watch?v=QdITQ4upjME 28.11.2022
+*/
+
+html{
+	background-color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+}
+body{
+	height:100vh;
+    background-image: url('Assets/background.gif');
+    background-size: cover;    
+}
+section{
+	height:90vh;
+
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.column{
+	color: white;
+	
+	margin: auto;
+	width: 50%;
+	height:50vh;
+
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+
+}
+  
+  
